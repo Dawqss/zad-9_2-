@@ -28,9 +28,9 @@ $(function(){
 	});
 
 	$('button').click(function(){
-		var colors = ["pink", "yellow", "green", "black", "blue", "white", "grey","yellow", "green", "black", "blue", "white", "grey"];
+		var colors = ['pink', 'yellow', 'green', 'black', 'blue', 'white', 'grey', 'yellow', 'green', 'black', 'blue', 'white', 'grey'];
 		var backgroundColor = colors[$(this).attr('data-tmp')];
 		$('body').css('background-color', backgroundColor ); 
-		}); 
+	}); 
 });
 
